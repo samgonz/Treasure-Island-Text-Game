@@ -1,7 +1,9 @@
 import gameOptions
 
-welcomeMessage = print('Welcome to Treasure Island.\nYour mission is simple,\nSURVIVE.\n')
 playAgain = 'Y'
+
+print(gameOptions.welcome())
+welcomeMessage = print('Welcome to Treasure Island.Your mission is simple, SURVIVE.\n')
 gameOptions.leftOrRight()
 
 while playAgain != 'N':
